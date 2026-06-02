@@ -1,0 +1,6 @@
+@SYSTEMTEST_HostAddress = http://localhost:5124
+
+GET {{SYSTEMTEST_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

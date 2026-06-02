@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SYSTEMTEST", "SYSTEMTEST\SYSTEMTEST.csproj", "{0BCF33CB-8CCD-4082-981F-99BEE3552380}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12018397-C8D5-4F83-AF0C-DEFB028990EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{2C49FEBC-506F-49ED-8BFD-4DA9DD261251}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{653C09FA-4083-43F1-8B1C-0401F940A792}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{BA3E62C1-DB5E-49F5-9639-D20FDCB0440C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "models", "models", "{0C518F39-6EC8-4361-98EA-8A37F0EE728F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app.module.ts", "app.module.ts", "{91F0DF1A-93CC-45AD-95E1-404A5A40D875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BCF33CB-8CCD-4082-981F-99BEE3552380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCF33CB-8CCD-4082-981F-99BEE3552380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCF33CB-8CCD-4082-981F-99BEE3552380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCF33CB-8CCD-4082-981F-99BEE3552380}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C49FEBC-506F-49ED-8BFD-4DA9DD261251} = {12018397-C8D5-4F83-AF0C-DEFB028990EC}
+		{653C09FA-4083-43F1-8B1C-0401F940A792} = {2C49FEBC-506F-49ED-8BFD-4DA9DD261251}
+		{BA3E62C1-DB5E-49F5-9639-D20FDCB0440C} = {2C49FEBC-506F-49ED-8BFD-4DA9DD261251}
+		{0C518F39-6EC8-4361-98EA-8A37F0EE728F} = {2C49FEBC-506F-49ED-8BFD-4DA9DD261251}
+		{91F0DF1A-93CC-45AD-95E1-404A5A40D875} = {2C49FEBC-506F-49ED-8BFD-4DA9DD261251}
+	EndGlobalSection
+EndGlobal
