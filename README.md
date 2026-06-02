@@ -84,4 +84,4 @@ dotnet run
 
 ## 👩‍💻 Author
 
-Built by Miryam Yellin
+Built by Miryam Ravitz
